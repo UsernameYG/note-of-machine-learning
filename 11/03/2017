@@ -12,4 +12,14 @@
     
 二、单变量线性回归（Linear Regression with One Variable)
     1、模型表示 （Model Representation）
+        首先这是一个回归问题，所以属于监督学习的范畴。监督学习中有一个数据集，被称作“训练集”（training set）。
+        m：训练集中样本实力的数量
+        x：特征/输入变量
+        y：目标变量/输出变量
+        （x，y）：训练集中的实例
+        h：学习算法的解决方案/假设（hypothesis）
+        h is maps from x to y, 是一个从x到y的函数映射，这类问题中的回归函数通常为线性函数
+        这类问题中只有一个特征/输入变量，所以称作单变量线性回归。
+    2、代价函数（cost function）
+        思路：选取线性回归函数中的两个参量的值，使得h(X)与y的实际值平方差最小
         
